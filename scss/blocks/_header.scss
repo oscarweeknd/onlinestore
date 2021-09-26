@@ -1,0 +1,13 @@
+.navbar-light{
+    background-color: $light;
+}
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
