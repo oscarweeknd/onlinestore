@@ -24,13 +24,23 @@
     text-decoration: none;
     color:$dark;
     }
+}
 .cart {
-    background-image: url();
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position:0 center;
+    padding-left: 50px;
+    display: block;
+    width: 30px;
+    height: 30px;
+
     &-count {
-        font-size: 12px;
+        background-image: url(../img/cart.svg);
+        background-repeat: no-repeat;
         color: #fff;
+        font-size: 12px;
         font-weight: 700;
         padding:10px 15px;
-    }
+        display: block;
 }
 }
